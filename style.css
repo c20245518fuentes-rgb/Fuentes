@@ -17,19 +17,28 @@ header {
     margin-bottom: 2rem;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #2c3e50;
+    color: #5203b3;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
 }
 
 nav a {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    margin-right: 1rem;
     color: #2c3e50;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -40,9 +49,71 @@ nav a:hover {
 }
 
 h2 {
-    color: #c0392b;
+    color: #c02bb4;
     font-family: 'Segoe UI', Roboto, sans-serif;
     font-size: 1.75rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
+}
+
+.about-me {
+    font-size: 1.25rem;
+    color: #dd57dd;
+}
+
+#my-services {
+    font-size: 1.29rem;
+    color: #cf13cf;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section {
+    flex: 1;
+    min-width: 250px;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    align-self: flex-start;
+}
+
+main section h2 {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+main section {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    margin-top: 0;
+}
+
+body {
+  background-image: url('https://tse1.explicit.bing.net/th/id/OIP.nc1pB5vw8uFofNvV51SN1QAAAA?r=0&w=256&h=180&rs=1&pid=ImgDetMain&o=7&rm=3');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
