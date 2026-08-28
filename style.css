@@ -61,9 +61,16 @@ form {
         padding: 15px;
     }
 
-@media (max-width: 601px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 100px;
         color: rgb(88, 55, 233);
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 48px;
+        color: blue;
     }
 }
