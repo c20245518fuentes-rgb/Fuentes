@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-<meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Tharver Fuentes M.</h1>
+    <h1>Tharver Fuentes</h1>
+
     <header>
-    <nav>
-        <span>@tharver fuentes</span>
-        <ul>
-            <li>
-                <a href="#about">About</a>  
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <span>@Tharver Fuentes</span>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p class="about-me">Hello! My name is Tharver Fuentes M. I am a web developer with a passion for creating dynamic and user-friendly websites. I have experience in both front-end and back-end development, and I enjoy learning new technologies to improve my skills.</p>
+        <section id="projects">
+            <h2 class="projects">My Projects</h2>
+            <p>Personal portfolio, payroll system, company website, startup website, and compliance monitoring system.
+            </p>
         </section>
 
         <section id="services">
-            <h2>Services</h2>
-            <p id="my-services">I offer a range of services related to web development, including front-end and back-end development</p>
+            <h2 class="services">My Services</h2>
+            <p>Website Creation, System Creation, AI Automation, Database Management, Project Management, Systems
+                Analyst</p>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p class = contact >let's build together!  </p>
+            <h2 class="contact">Let's build together!</h2>
             <form action="#">
                 <!-- Name -->
-                <label for="name">Name:</label>
+                <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
-                
+
                 <!-- Email -->
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
                 <!-- Message -->
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+
+                <!-- Submit -->
                 <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
