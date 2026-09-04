@@ -3,7 +3,7 @@ body {
 }
 ul {
    list-style-type: none;
-}
+} 
 nav {
   display: flex;
   justify-content: space-between;
@@ -96,7 +96,7 @@ form {
   }
 
   button {
-    transition: background-color 0.3s ease;
+    transition: background-color 1.0s ease;
     background-color: black;
     color: white;
     border-radius: 10px;
