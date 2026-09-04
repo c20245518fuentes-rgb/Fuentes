@@ -22,14 +22,34 @@ console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
 
 const heading = document.querySelector("h1");
-heading.textContent = "Your father's name";
+heading.textContent = "Tharver Fuentes";
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
 heading.style.fontSize = "100px";
 console.log(heading);
 
+heading.addEventListener("click", function () {
+    heading.style.color = "red";
+    console.log("Heading was clicked.");
+});
+
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const servicesHeadingHeading = document.querySelector("#services h2");
-console.log(servicesHeadingHeading);
+const projectsHeading = document.querySelector("#projects h2");
+console.log(projectsHeading);
+
+const toggleButton = document.querySelector("#switch");
+const body = document.querySelector("body");
+let isOFF = false;
+
+toggleButton.addEventListener("click", function () {
+    isOFF = !isOFF;
+    if (isOFF) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+});
