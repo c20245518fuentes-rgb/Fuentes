@@ -18,10 +18,11 @@ function greet(greetings, names = []) {
     }
     return `${greetings} sa enyu ${names}`;
 }
-console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew"]));
+console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
 
 const heading = document.querySelector("h1");
+heading.textContent = "Your father's name";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
