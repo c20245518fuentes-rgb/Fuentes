@@ -23,6 +23,9 @@ console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Your father's name";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
