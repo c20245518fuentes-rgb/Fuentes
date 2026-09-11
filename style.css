@@ -67,7 +67,7 @@ form {
 
     h1 {
         font-size: 100px;
-        color: red;
+        color:red;
     }
 }
 
@@ -102,4 +102,8 @@ button:hover {
 
 h2 {
     color: hotpink;
+}
+
+h1 {
+    color: blue;
 }
