@@ -109,5 +109,9 @@ h1 {
 }
 
 #projects {
+<<<<<<< HEAD
     background-color: orange;
+=======
+    background-color: blue;
+>>>>>>> cold-theme
 }
